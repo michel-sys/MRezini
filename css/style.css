@@ -2,7 +2,7 @@ body {
     background-color: #081C29;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     user-select: none;
-    height: 2300px;
+    height: 2230px;
 
 }
 
@@ -477,4 +477,13 @@ body::-webkit-scrollbar {
 
 .insta:hover {
     fill: #175AA8;
+}
+
+.body3{
+    width: 100%;
+    height: 25%;
+    background-color: #122E43;
+    position: absolute;
+    bottom: -120%;
+    left: 0%;
 }
