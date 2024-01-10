@@ -323,7 +323,8 @@ body::-webkit-scrollbar {
     background: rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px #1757a0;
+    border: 2px solid #175AA8;
     bottom: -110%;
   }
   
