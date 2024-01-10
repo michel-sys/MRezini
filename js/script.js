@@ -14,3 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
+  function redirectToTelegram() {
+    window.location.href = "https://t.me/MichelRezini";
+}

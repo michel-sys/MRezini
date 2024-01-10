@@ -19,6 +19,7 @@ body::-webkit-scrollbar {
 }
 .bar{
     user-select: none;
+    
 }
 
 .m {
