@@ -1,0 +1,486 @@
+body {
+    background-color: #081C29;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select: none;
+    height: 2000px;
+
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+.siteName{
+    position: absolute;
+    color: #ddd;
+    left: 5%;
+    bottom: 88%;
+}
+.bar{
+    user-select: none;
+}
+
+.m {
+    color: #ddd;
+    background: none;
+    position: absolute;
+    border: none;
+    bottom: 93%;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.m:hover{
+    color: #24A4DF;
+}
+.m:active{
+    color: #1b7daa;
+}
+
+#a{ 
+    left: 60%;
+    font-weight: bold;
+}
+
+#b{ 
+    left: 67%;
+    font-weight: bold;
+}
+
+#c{ 
+    left: 78.5%;
+
+    font-size: 120%;
+}
+
+#d{ 
+    left: 87%;
+    font-weight: bold;
+}
+
+
+
+
+.title {
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 50%;
+    font-size: 300%;
+}
+
+.job{
+    color:#24A4DF;
+    font-size: 75%;
+}
+
+.textI {
+    color: white;
+    position: absolute;
+    font-size: 125%;
+    left: 5%;
+    bottom: 30%;
+}
+
+.b6{
+    background-color: #24A4DF;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    font-weight: bold;
+    color: white;
+    font-size: 100%;
+    left: 5%;
+    bottom: 15%;
+    cursor: pointer;
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+    box-shadow: 3px 3px 10px black;
+}
+
+.b6:hover {
+    animation: b6 800ms ease-in-out;
+    background-color: #081C29;
+    color: white;
+}
+.b6:active {
+    background-color: #081C29;
+    color: white;
+    box-shadow: inset 3px 3px 10px black;
+}
+
+@keyframes b6 {
+    0% {background-color: #24A4DF;}
+    100% {background-color: #081C29; color: white;}
+}
+
+
+
+.b7{
+    background-color: #081C29;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    font-weight: bold;
+    color: white;
+    font-size: 100%;
+    left: 18%;
+    bottom: 15%;
+    cursor: pointer;
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+    box-shadow: 3px 3px 10px black;
+}
+
+.b7:hover {
+    animation: b7 800ms ease-in-out;
+    background-color: #24A4DF;
+    color: white;
+}
+.b7:active {
+    background-color: #24A4DF;
+    color: white;
+    box-shadow: inset 3px 3px 10px black;
+}
+
+@keyframes b7 {
+    0% {background-color: #081C29;}
+    100% {background-color: #24A4DF; color: white;}
+}
+
+
+
+
+
+
+
+
+
+.budy2{
+    width: 100%;
+    height: 120%;
+    background-color: #122E43;
+    position: absolute;
+    bottom: -120%;
+    left: 0%;
+}
+
+
+
+.eu_img {
+    position: absolute;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    top: 250px;
+    left: 190px;
+    border: 4px solid #ffffff;
+    border-width: 2px 3px; 
+    pointer-events: none;
+}
+
+.divisão {
+    position: absolute;
+    width: 5px;
+    height: 285px;
+    background-color:#ffffff;
+    border-radius: 5%;
+    top: 260px;
+    left: 500px;
+}
+
+.divisão_ {
+    position: absolute;
+    width: 298px;
+    height: 5px;
+    background-color:#ffffff;
+    border-radius: 5%;
+    top: 315px;
+    left: 500px;
+}
+
+.name2 {
+    color: white;
+    position: absolute;
+    top: 215px;
+    left: 515px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: sombraColorida 4s infinite;
+}
+
+@keyframes sombraColorida {
+    0% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.5); /* Sombra azul */
+    }
+    25% {
+      text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.5); /* Sombra verde */
+    }
+    50% {
+      text-shadow: 2px 2px 4px rgba(255, 255, 0, 0.5); /* Sombra amarela */
+    }
+    75% {
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra branca */
+    }
+    100% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.5); /* Sombra azul novamente */
+    }
+  }
+
+  .user_icon {
+    position: absolute;
+    top: 345px;
+    left: 515px;
+  }
+
+  .time_icon {
+    position: absolute;
+    top: 380px;
+    left: 515px;
+  }
+
+  .home_icon {
+    position: absolute;
+    top: 415px;
+    left: 515px;
+  }
+
+  .mala_icon{
+    position: absolute;
+    top: 450px;
+    left: 515px;
+  }
+
+  .notebook_icon {
+    position: absolute;
+    top: 485px;
+    left: 515px;
+  }
+
+  .school_icon {
+    position: absolute;
+    top: 520px;
+    left: 515px;
+  }
+
+  .info {
+    position: absolute;
+    color: #175AA8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    left: 40%;
+  }
+
+  .BA {
+    position: absolute;
+    left: none;
+    bottom: -23.9rem;
+}
+
+.BB {
+    position: absolute;
+    left: none;
+    bottom: -26rem;
+}
+
+.BC {
+    position: absolute;
+    left: none;
+    bottom: -28.3rem;
+}
+
+.BD {
+    position: absolute;
+    left: none;
+    bottom: -30.5rem;
+}
+
+.BE {
+    position: absolute;
+    left: none;
+    bottom: -32.7rem;
+}
+
+.BF {
+    position: absolute;
+    left: none;
+    bottom: -35rem;
+}
+
+.perfil {
+    position: relative;
+    left: 15%;
+    bottom: 5%;
+}
+
+
+
+#slider-wrapper {
+    width: 940px;
+    height: 470px;
+    margin: 50px auto;
+    position: relative;
+    margin-bottom: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    bottom: -110%;
+  }
+  
+  #s1 {
+    padding: 6px;
+    background: #24A4DF;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: -36px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  #s2 {
+    padding: 6px;
+    background: #24A4DF;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: -12px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  #s3 {
+    padding: 6px;
+    background: #24A4DF;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: 12px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  #s4 {
+    padding: 6px;
+    background: #24A4DF;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: 36px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  #s1:hover,
+  #s2:hover,
+  #s3:hover,
+  #s4:hover {
+    opacity: .50;
+  }
+  
+  .inner-wrapper {
+    width: 940px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  
+  .control {
+    display: none;
+  }
+  
+  #Slide1:checked ~ .overflow-wrapper {
+    margin-left: 0%;
+  }
+  
+  #Slide2:checked ~ .overflow-wrapper {
+    margin-left: -100%;
+  }
+  
+  #Slide3:checked ~ .overflow-wrapper {
+    margin-left: -200%;
+  }
+  
+  #Slide4:checked ~ .overflow-wrapper {
+    margin-left: -300%;
+  }
+  
+  #Slide1:checked + #s1 {
+    opacity: 1;
+  }
+  
+  #Slide2:checked + #s2 {
+    opacity: 1;
+  }
+  
+  #Slide3:checked + #s3 {
+    opacity: 1;
+  }
+  
+  #Slide4:checked + #s4 {
+    opacity: 1;
+  }
+  
+  .overflow-wrapper {
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .slide img {
+    width: 25%;
+    float: left;
+  }
+
+
+
+.git {
+    fill: #24A4DF;
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    left: 3.6%;
+    bottom: 5%;
+}
+
+.insta {
+    fill: #24A4DF;
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    left: 7%;
+    bottom: 5%;
+}
+
+
+.git:hover {
+    fill: #175AA8;
+}
+
+.insta:hover {
+    fill: #175AA8;
+}
