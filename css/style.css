@@ -3,7 +3,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     user-select: none;
     height: 2230px;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 
@@ -15,11 +15,10 @@ body::-webkit-scrollbar {
     position: absolute;
     color: white;
     left: 5%;
-    bottom: 88%;
+    bottom: -15%;
 }
 .bar{
     user-select: none;
-    
 }
 
 .m {
@@ -43,22 +42,25 @@ body::-webkit-scrollbar {
 #a{ 
     left: 60%;
     font-weight: bold;
+    bottom: 30%;
 }
 
 #b{ 
     left: 67%;
     font-weight: bold;
+    bottom: 30%;
 }
 
 #c{ 
     left: 78.5%;
-
     font-size: 120%;
+    bottom: 30%;
 }
 
 #d{ 
     left: 87%;
     font-weight: bold;
+    bottom: 30%;
 }
 
 
@@ -168,6 +170,8 @@ body::-webkit-scrollbar {
     position: absolute;
     bottom: -120%;
     left: 0%;
+    border-top: 1px solid rgba(23, 87, 160, 0.479);
+    border-bottom: 1px solid rgba(23, 87, 160, 0.479);
 }
 
 
@@ -488,6 +492,7 @@ body::-webkit-scrollbar {
     position: absolute;
     bottom: -120%;
     left: 0%;
+    border-top: 1px solid rgba(23, 87, 160, 0.479);
 }
 
 @media screen and (max-width: 450px) {
@@ -717,4 +722,58 @@ body{
   text-decoration: none;
   color: none;
   color: white;
+}
+
+
+
+.fixar {
+  width: 100%;
+  background-color: #081C29;
+  height: 10%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+  border-bottom: 1px solid #122E43;
+}
+
+.social {
+  color: #081C29;
+  position:relative;
+}
+
+.social2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #1757a0;
+  font-weight: bold;
+  font-size: 120%;
+  position: relative;
+}
+
+.social2:hover {
+  color: #1e75d8;
+}
+
+#desc2 {
+  position: absolute;
+  bottom: 35%;
+  margin-left: 3%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+#divisao_ {
+  height: 90%;
+  width: 2px;
+  background-color: #175AA8;
+  position: absolute;
+  bottom: 5%;
+  left: 51%;
+}
+
+.contatosS {
+  position: absolute;
+  bottom: 10%;
+  left: 52%;
 }
