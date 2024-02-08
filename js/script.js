@@ -17,3 +17,39 @@ document.addEventListener("DOMContentLoaded", function () {
 function redirectToTelegram() {
   window.location.href = "https://t.me/MichelRezini";
 }
+
+
+function getLikeCount() {
+  return localStorage.getItem('likeCount') || '0';
+}
+
+
+function updateLikeCount(count) {
+  localStorage.setItem('likeCount', count);
+}
+
+function updateLikeCountDisplay(count) {
+  document.getElementById('likeCount').textContent = ' - ' + count;
+}
+
+function gostei() {
+  var button = document.getElementById('cg');
+  var likeCount = parseInt(getLikeCount(), 10);
+
+  if (button.classList.contains('like2')) {
+    button.classList.remove('like2');
+    button.classList.add('like4');
+    likeCount++;
+  } else {
+    button.classList.remove('like4');
+    button.classList.add('like2');
+    likeCount--;
+  }
+
+  updateLikeCount(likeCount);
+  updateLikeCountDisplay(likeCount);
+}
+
+window.onload = function() {
+  updateLikeCountDisplay(getLikeCount());
+};

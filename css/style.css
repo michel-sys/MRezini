@@ -790,3 +790,28 @@ body{
   position: absolute;
   bottom: 100%;
 }
+
+.like {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 25%;
+  left: 2.6%;
+}
+
+.like2 {
+  fill: #1757a073;
+}
+
+.like4 {
+  fill: #1e75d8;
+}
+
+.tL {
+  color: #1e75d8;
+  position: relative;
+  top: -5px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
