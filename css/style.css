@@ -73,8 +73,10 @@ body::-webkit-scrollbar {
 }
 
 .job {
+  position: relative;
   color: #24a4df;
   font-size: 75%;
+  top: -10px;
 }
 
 .textI {
