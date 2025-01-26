@@ -808,8 +808,6 @@ body::-webkit-scrollbar {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-
-
 @media (max-width: 768px) {
   #desc2 {
     bottom: 15%;
@@ -836,7 +834,7 @@ body::-webkit-scrollbar {
     max-width: 100%;
   }
 
-  .git{
+  .git {
     height: 7vw;
     width: 7vw;
     position: absolute;
@@ -845,7 +843,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
 
-  .insta{
+  .insta {
     height: 7vw;
     width: 7vw;
     position: absolute;
@@ -854,13 +852,13 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
 
-  .b6{
+  .b6 {
     z-index: 20;
     bottom: 90px;
     font-size: 17px;
   }
 
-  .b7{
+  .b7 {
     z-index: 20;
     bottom: 90px;
     font-size: 17px;
@@ -876,11 +874,9 @@ body::-webkit-scrollbar {
   .a__ {
     font-size: 2.8vw;
   }
-
 }
 
 @media (max-width: 395px) {
-
   .title {
     top: 20vw;
     font-size: 10vw;
@@ -891,23 +887,18 @@ body::-webkit-scrollbar {
     font-size: 5vw;
   }
 
-  #desc2{
+  #desc2 {
     font-size: 50%;
     top: 0%;
   }
-  .social2{
+  .social2 {
     font-size: 5vw;
   }
-  .social{
+  .social {
     font-size: 5vw;
   }
-  
 }
 
-
 @media (max-width: 240px) {
-
-
-
   /* Limite */
 }
