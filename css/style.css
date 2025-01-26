@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
   position: absolute;
   color: white;
   left: 5%;
-  bottom: -15%;
+  bottom: -1vw;
 }
 .bar {
   user-select: none;
@@ -96,11 +96,11 @@ body::-webkit-scrollbar {
   border: 1px solid #ddd;
   border-radius: 15px;
   position: absolute;
-  height: 10%;
-  width: 10%;
+  height: 65px;
+  width: 150px;
   font-weight: bold;
   color: white;
-  font-size: 100%;
+  font-size: 17px;
   left: 5%;
   bottom: 15%;
   cursor: pointer;
@@ -134,11 +134,11 @@ body::-webkit-scrollbar {
   border: 1px solid #ddd;
   border-radius: 15px;
   position: absolute;
-  height: 10%;
-  width: 10%;
+  height: 65px;
+  width: 150px;
   font-weight: bold;
   color: white;
-  font-size: 100%;
+  font-size: 17px;
   left: 18%;
   bottom: 15%;
   cursor: pointer;
@@ -691,7 +691,7 @@ body::-webkit-scrollbar {
   }
 
   body {
-    height: 2070px;
+    height: 0vw;
   }
 }
 
@@ -766,7 +766,7 @@ body::-webkit-scrollbar {
 
 .contatosS {
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   left: 52%;
 }
 
@@ -808,6 +808,8 @@ body::-webkit-scrollbar {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+
+
 @media (max-width: 768px) {
   #desc2 {
     bottom: 15%;
@@ -830,13 +832,82 @@ body::-webkit-scrollbar {
   }
 
   .textI {
-    top: 500px;
-  }
-}
-
-@media (max-width: 475px) {
-  .textI {
-    font-size: 4vw;
+    top: 50%;
     max-width: 100%;
   }
+
+  .git{
+    height: 7vw;
+    width: 7vw;
+    position: absolute;
+    left: 25px;
+    bottom: 15px;
+    z-index: 10;
+  }
+
+  .insta{
+    height: 7vw;
+    width: 7vw;
+    position: absolute;
+    left: calc(25px + 7vw + 2vw);
+    bottom: 15px;
+    z-index: 10;
+  }
+
+  .b6{
+    z-index: 20;
+    bottom: 90px;
+    font-size: 17px;
+  }
+
+  .b7{
+    z-index: 20;
+    bottom: 90px;
+    font-size: 17px;
+    left: calc(5% + 35vw);
+  }
+
+  .contatosS {
+    position: absolute;
+    bottom: 20%;
+    left: 52%;
+  }
+
+  .a__ {
+    font-size: 2.8vw;
+  }
+
+}
+
+@media (max-width: 395px) {
+
+  .title {
+    top: 20vw;
+    font-size: 10vw;
+  }
+
+  .textI {
+    top: 60vw;
+    font-size: 5vw;
+  }
+
+  #desc2{
+    font-size: 50%;
+    top: 0%;
+  }
+  .social2{
+    font-size: 5vw;
+  }
+  .social{
+    font-size: 5vw;
+  }
+  
+}
+
+
+@media (max-width: 240px) {
+
+
+
+  /* Limite */
 }
