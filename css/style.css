@@ -809,7 +809,6 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 768px) {
-
   #desc2 {
     bottom: 15%;
   }
@@ -823,7 +822,7 @@ body::-webkit-scrollbar {
     height: 50vw;
   }
 
-  #slider-wrapper{
+  #slider-wrapper {
     height: 50vw;
     top: 150%;
     left: 45%;
@@ -833,11 +832,10 @@ body::-webkit-scrollbar {
   .textI {
     top: 500px;
   }
-
 }
 
 @media (max-width: 475px) {
-  .textI{
+  .textI {
     font-size: 4vw;
     max-width: 100%;
   }
