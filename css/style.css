@@ -85,6 +85,10 @@ body::-webkit-scrollbar {
   font-size: 125%;
   left: 5%;
   bottom: 30%;
+
+  max-width: 50%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .b6 {
@@ -745,6 +749,10 @@ body::-webkit-scrollbar {
   margin-left: 3%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
+
+  max-width: 48%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 #divisao_ {
@@ -758,7 +766,7 @@ body::-webkit-scrollbar {
 
 .contatosS {
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 52%;
 }
 
@@ -798,4 +806,39 @@ body::-webkit-scrollbar {
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 768px) {
+
+  #desc2 {
+    bottom: 15%;
+  }
+
+  .like {
+    bottom: 5%;
+  }
+
+  .inner-wrapper {
+    width: 100%;
+    height: 50vw;
+  }
+
+  #slider-wrapper{
+    height: 50vw;
+    top: 150%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .textI {
+    top: 500px;
+  }
+
+}
+
+@media (max-width: 475px) {
+  .textI{
+    font-size: 4vw;
+    max-width: 100%;
+  }
 }
